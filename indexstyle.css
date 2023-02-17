@@ -1,0 +1,67 @@
+body {
+    background-color:pink;
+}
+
+h1 {
+    font-size: 50px;
+    font-style:oblique;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:visited {
+    font-style: italic;
+    color:black;
+}
+
+
+
+button {
+    height: 28px;
+    background-color:avajowhite;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    border-color:black;
+}
+a:hover {
+background-color:antiquewhite;
+}
+
+img {
+    float: center;
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px; 
+    -webkit-box-reflect: below 5px
+    -webkit-gradient(
+    linear, left top, left bottom,
+    from(transparent), to(white));
+
+}
+div {
+   
+   
+    width: 150px;
+  height: 250px;
+  background: palevioletred;
+  transition-property: width;
+  transition-duration: 5s;
+  position:fixed;
+  right:100px; top:50px;
+  font-style: oblique;
+  font-size: 40px;
+  right:100px; top:50px;
+  }
+  
+  
+  div:hover {
+    width: 300px;
+    height: 200px;
+    font-size: 60px;
+    
+  }

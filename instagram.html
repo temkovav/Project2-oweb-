@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mini instagram</title>
+        <link rel="stylesheet" type="text/css" href="styleInstagram.css">
+        <script lang="JavaScript" src="insta.js"></script>
+        <script lang="JavaScript" src="function.js"></script>
+    </head>
+    <body>
+        <button onclick="switchPage(1)">Homepage</button>
+        <button onclick="switchPage(2)">Favourite</button>
+        <button onclick="switchPage(3)">Mini instagram</button>
+        <button onclick="switchPage(4)">Quiz </button>
+        <button onclick="switchPage(5)"> Places </button>
+
+        <h1>Welcome to our page-mini instagram </h1>
+        
+        <div>
+            <img src="catt.jpg" alt="My cat "><br>
+            <img id="outline1" src="like.png" alt="Like " onclick="change1()">
+            <img id="comment" src="comment.png" alt="Comment" onclick="addComment(1)">
+            <label id="likes1">10</label>
+            <label> likes</label><br><br>
+            <p id="firstComment"></p>
+            
+        </div><br>
+        
+        <div id="Second">
+            <img id="Second" src="nature.jpg" alt="Nature"><br>
+            <img id="outline2" src="like.png" alt="Like1" onclick="change2()">
+            <img id="comment" src="comment.png" alt="Comment" onclick="addComment(2)">
+            <label id="likes2">22</label>
+            <label> likes</label><br><br>
+            <p id="secondComment"></p>
+        </div><br>
+       
+    </body>
+</html>

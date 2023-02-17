@@ -1,0 +1,28 @@
+body {
+    background-color:pink;
+}
+
+h1 {
+    font-size: 50px;
+    font-style:oblique
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+fieldset{
+    background-color: aliceblue;
+    border-color:coral;
+
+}
+
+button {
+    height: 28px;
+    background-color:plum;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    border-color:black;
+}

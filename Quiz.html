@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset = "utf-8">
+ <title>Quiz </title>
+<link rel="stylesheet" type="text/css" href="quizstyle.css"> 
+<script lang="JavaScript" src="function.js"></script>
+<script lang="JavaScript" src="quiz.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+ </head>
+ <body>
+    <button onclick="switchPage(1)">Homepage</button>
+    <button onclick="switchPage(2)">Favourite</button>
+    <button onclick="switchPage(3)">Mini instagram</button>
+    <button onclick="switchPage(4)">Quiz </button>
+    <button onclick="switchPage(5)"> Places </button>
+
+    <h1>Here are some questions to answer </h1>
+    <fieldset>
+        <legend>First question </legend><br>
+        <label><strong>1. What do you like to read?</strong></label><br>
+        <input name="book" id="b1" type="radio" value="A novel"><label>A novel</label><br>
+        <input name="book" id="b2" type="radio" value="Thriller"><label>Thriller</label><br>
+        <input name="book"id="b3"  type="radio" value="Psihology"><label>Psihology</label><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Second question </legend><br>
+        <label><strong>2. What kind of music do  you like?</strong></label><br>
+        <input name="music" id="m1" type="radio" value="Pop"><label>Pop</label><br>
+        <input name="music" id="m1" type="radio" value="Rock"><label>Rock</label><br>
+        <input name="music" id="m1" type="radio" value="Classical music "><label>Classical music</label><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Third question </legend><br>
+        <label><strong>3. What is your favorite food ?</strong></label><br>
+        <input name="food" id="f1" type="radio" value="Pizza"><label>Pizza</label><br>
+        <input name="food" id="f1" type="radio" value="Pasta"><label>Pasta</label><br>
+        <input name="food" id="f1" type="radio" value="Sandwiches"><label>Sandwiches</label><br><br>
+    </fieldset>
+
+ 
+       <form>
+<button>Finish </button>
+      
+       </form>
+        
+    
+ </body>
+ </html>

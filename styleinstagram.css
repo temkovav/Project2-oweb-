@@ -1,0 +1,89 @@
+body {
+    background-color:lavender;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    color:mediumvioletred;
+    text-transform: uppercase;
+
+    text-shadow: 5px 5px 5px #000;
+    
+}
+
+div {
+    width: 400px;
+    height: 530px;
+    margin: auto;
+    border:  rgb(152, 73, 73);
+    float: left;
+}
+
+div#Second {
+    width: 400px;
+    height: 530px;
+    margin: auto;
+    border:  black;
+    float:left;
+}
+
+img {
+    width: 400px;
+    height: 430px;
+}
+
+img#Second {
+    width: 400px;
+    height: 430px;
+}
+
+
+
+img#outline1, img#outline2 {
+    width: 50px;
+    height: 40px;
+    float: center;
+    margin-left: 5px;
+   
+}
+
+img#comment {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 5px;
+}
+
+label {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button {
+    height: 28px;
+    background-color:chocolate;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+    border-color:chocolate;
+    float: center;
+}
+
+p {
+    float: center;
+    font-style:oblique;
+    font-size: large;
+}
+div {
+    background-color: lightcyan ;
+    width: 400px;
+    height: 500px;
+    border: 15px solid #f08080;
+    padding: 30px;
+    margin: 20px;
+ 
+  }
+ 
